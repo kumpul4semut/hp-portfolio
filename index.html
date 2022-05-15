@@ -3,8 +3,53 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>My Portfolio</title>
+    <style type="text/css">
+      *{
+       block-size: border-box;
+       margin: 0;
+       padding: 0;
+      }
+      
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      
+      .card{
+        width: 350px;
+        margin-top: 20px;
+        padding: 10px;
+        border: 2px solid purple;
+        border-radius: 10px;
+        text-align: center;
+      }
+      
+      hr{
+        color: purple;
+      }
+      
+    </style>
   </head>
   <body>
-    <h1>My Portfolio</h1>
+    <div class="card">
+      <h3>Hy, saya Jujun Jamaludin</h3>
+      <p>Saya 4 tahun fullstack developer</p>
+    </div>
+    <div class="card">
+      <h3>Pengalaman kerja</h3>
+      <br />
+      <h5>Juni 2018 sampai juni 2020</h5>
+      <p>CEO website SSH dan VPN semutssh.com dan creator youtube kumpul4semut</p>
+      <hr />
+      <br />
+      <h5>maret 2021 sampai juni 2021</h5>
+      <p>Freelancer programer on biomedika </p>
+       <hr />
+      <br />
+      <h5>september 2021 sampai sekarang</h5>
+      <p>Freelancer programer on kurmamedia </p>
+    </div>
   </body>
 </html>
